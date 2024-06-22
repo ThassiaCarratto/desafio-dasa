@@ -8,4 +8,4 @@ rule anotar_variantes:
 	output:
 		"results/variantes_anotadas.csv"
 	script:
-		"scripts/anotacao_de_variantes2.py"
+		"scripts/anotacao_de_variantes.py"
