@@ -20,9 +20,11 @@ Compara se o alelo para qual a frequência é dada está presente no vcf para aq
 Se sim, anota a frequencia.
 
 Para utilizar esse workflow, recomenda-se criar um novo ambiente conda:
+
 mamba env create --name anotacao_de_variantes --file environment.yaml
 
 seguido de sua ativação:
+
 conda activate anotacao_de_variantes
 
 para rodar o pipeline, tenha certeza de que o vcf input está na pasta data e atualize o nome do arquivo input no Snakefile.
