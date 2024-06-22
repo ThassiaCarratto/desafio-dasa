@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - snakemake-minimal >=8.4.4
+  - pandas
+  - flask
+  - flask_cors
